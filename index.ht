@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Freelance Web developer in Cedar Rapids, IA">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Floyd Orr Built With CSS, HTML And Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myVideo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+   
+
+  </head>
+  <body>
+    <!--nav bar on top of page-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">F / O</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#API">API's <span class="sr-only">(current)</span></a></li>
+        <li><a href="#Frame Works">Frameworks</a></li>
+        <li><a href="#Backend">Backend</a></li>
+        <li><a href="#misc">Misc</a></li>
+        <li><a href="#Algorithims">Algorithms</a></li>
+        <li><a href="#Tools">Tools</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<div id="video">
+  <video preload="true" autoplay="autoplay" loop="loop" volume="0" poster="pic/PC-Typing.jpg" id="#video-bg">
+    <source src="video/Push-The-Buttons.webm" type="video/webm">
+    <source src="video/Push-The-Buttons.mp4" type= "video/mp4">
+    <source src="video/Push-The-Buttons.ogv" type="video/ogg">
+  </video>
+</div>
+<div class="outer">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="text-left">Floyd Orr</h1>
+      <hr />
+      <p class="text-right">  Freelance Web Developer<br>Cedar Rapids, IA | floyd@floydorr.com</p>
+       
+</div>
+      
+  </div>
+    
+</div>
+      
+<!--video-->
+
+  <!--under  group 1 this body circles ect-->
+    
+  
+    <div class="container">
+          <h1 class="text-center" id="API">API's / AJAX</h1>
+<row>
+  <div class="text-center">
+       <a href="#top">top</a>
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-4 img-responsive">
+   <img src="pics/api1.png" data-toggle="modal" data-target="#project1">
+          <h4>Map, Article API<br></h4>
+      </div>
+      <div class="col-md-4 img-responsive">
+        <i class="fa fa-quote-right fa-5x " data-toggle ="modal" data-target="#project2"></i>
+        <h4>Random Quote Machine</h4>
+         </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+          <i class="fa fa-sun-o fa-5x" data-toggle="modal" data-target="#project3"></i>
+        <h4>Weather API</h4>
+        
+      </div>
+     
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Mixed Api</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="pics/api1.png" >
+       <a href="http://www.floydorr.com/mapApi/" target="_blank"> This api used Google maps, wikipedia's api and The New York Times Union's api. When you enter an address, a map of the location shows in the background and articles are shown about the location.</br>Click here</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Random Qote Machine</h4>
+      </div>
+      <div class="modal-body">
+       <i class="fa fa-quote-right fa-5x "></i>
+      <p><a href ="http://codepen.io/virtualmason/pen/EPevxV" target="_blank">When you click the button a random design quote is displayed and you can tweet it out.It uses bootstrap and an api<br>click here</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Weather APIe</h4>
+      </div>
+      <div class="modal-body">
+          <i class="fa fa-sun-o fa-5x "></i>
+        <p><a href ="http://codepen.io/virtualmason/pen/NxBJZE" target="_blank">When you click button the tempature is displayed in Cedar Rapids Ia, and a picture icon of current weather is shown.You can choose which unit to display the temperature in <br>click here</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+   
+<!--end group 1 modals-->
+<!--leave above this line, new under-->
+<!--group 2 modal-->
+ 
+    <div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+       
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-6 img-responsive">
+        <i class="fa fa-search fa-5x " data-toggle="modal" data-target="#wiki"></i>
+        <h4>Wikipedia Search Machine</h4>
+       
+      </div>
+      <div class="col-md-6 img-responsive">
+          <i class="fa fa-spinner fa-5x" data-toggle="modal" data-target="#twitch"></i>
+          <h4>Twitch Stream App<br></h4>
+         </div>
+        
+        
+    
+      <!--<div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+      -->
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="wiki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Wikipedia Search Machine</h4>
+      </div>
+      <div class="modal-body">
+         <i class="fa fa-search fa-5x "></i>
+        <a href="http://codepen.io/virtualmason/pen/QyXazy" target="_blank">This was a fun project making it so someone can search for an article or do a random search.<br>click here</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="twitch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Twitch Tv Stream App</h4>
+      </div>
+      <div class="modal-body">
+         
+          <a href="http://codepen.io/virtualmason/pen/PNPerW" target="_blank">
+        This project lets you know who is streaming live on Twitch Tv. If a user is not online it says so. If they are it will pull information in JSONP format and display the information. <br>
+          Click here to go to project.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 2 modals-->
+<!--leave above this line, new under-->
+<!--group  3  fram worksmodal-->
+    <div class="container">
+      <h1 class="text-center" id="Frame Works"><a name="Frame Works"></a>Frame Works</h1>
+
+  <div class="text-center">
+       <a href="#top">top</a>
+     </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 img-responsive">
+        <i class="fa fa-circle-o fa-5x" aria-hidden="true" img src="pics/AngularJS-small.png" data-toggle="modal" data-target="#tictac"></i>  
+        
+         
+        <h4>Tic Tac Toe (Bootstrap, JQuery)</h4>
+      
+      </div>
+      <div class="col-md-4 img-responsive">
+        <i class="fa fa-mobile fa-5x" data-toggle="modal" data-target="#angular2"></i>
+        <h4>Angular Pig Latin App</h4>
+             </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+          <img src =pics/jquery.png class="fa fa-mobile fa-5x" data-toggle="modal" data-target="#jquery1" />
+        <h4>Responsive  Mobile App</h4>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="tictac" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Angular App</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+          <a href="http://codepen.io/virtualmason/pen/PzQPGa" target="_blank">
+        This is a tic tac toe game that strikes through elements and restarts game if you win.
+          Click here to see it in Codepen. Built with JavaScript, Jquery and bootstrap</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="angular2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Angular Pig Latin App</h4>
+      </div>
+      <div class="modal-body">
+          <p>
+        <a href=" http://codepen.io/virtualmason/pen/GZMJzE?editors=1010" target="_blank">
+        This is the Pig Latin Translation App that takes a workd and translates it to pig latin check it out.
+              </a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="jquery1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <a href="http://codepen.io/virtualmason/pen/MyvMdy?editors=0100" target="_blank">
+            This is a reponsive app for mobile phones using JQuery ,and JavaScript, media queries. Click link to view.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 3 modals-->
+<!--leave above this line, new under-->
+<!--group  4 modal- frame works -->
+
+ <div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+      
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-6 img-responsive">
+          <i class="fa fa-calculator fa-4x" data-toggle="modal" data-target="#calculator"></i>
+        <h4>Angular Calculator</h4>
+       
+      </div>
+      <div class="col-md-6 img-responsive">
+                  <i class="fa fa-clock-o fa-4x" data-toggle="modal" data-target="#clock"></i>
+        <h4>Bootstrap / JQuery Pomodoro Clock</h4>
+       
+      </div>
+       <!-- 
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+
+      -->
+      
+      
+      
+      
+   
+      
+    
+     
+<div class="modal fade" id="calculator" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Angular Calculator</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+          <a href="http://codepen.io/virtualmason/pen/MeJezW" target="_blank">
+        This is a working calculator with CSS styling made from Angular.</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="clock" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">JQuery / Bootstrap Pomodoro Clock</h4>
+      </div>
+      <div class="modal-body">
+         <a href="http://codepen.io/virtualmason/pen/AXrWdY" target="_blank">
+        This is a weekend project where I built a pomodoro clock made to help developers work more efficiently. It is styled with bootstrap and interactivity is done with JQuery. </a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 4 modals-->
+<!--leave above this line, new under-->
+<!--group  5 modal- live Sites -->
+<div class="container">
+      <h1 class="text-center" id="Backend"><a name="Backend"></a>Backend</h1>
+<row>
+  <div class="text-center">
+      
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-12 img-responsive">
+       <img src="pics/nodepic.gif" data-toggle="modal" data-target="#node1"></i>
+       
+       
+      </div>
+      <!--<div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+-->
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="node1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Node.js Badges Program</h4>
+      </div>
+      <div class="modal-body">
+        <a href="https://github.com/virtualmason/Node.js.git" target="_blank" target="blank" >
+            This is a project written in Node that gets users information from Team Treehouse Website.Click here</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--end group 5 modals-->
+<!--leave above this line, new under-->
+<!--group  6 modal- live Sites -->
+<div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+       <a href="#top">top</a>
+     </div>
+</row>
+    <!--<div class="row text-center">
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+      
+      -->
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was my first project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 4 modals-->
+<!--leave above this line, new under-->
+<!--group  5 modal- live Sites -->
+<!--start--><div class="container">
+      <h1 class="text-center" id="misc"><a name="Misc"></a>Misc</h1>
+<row>
+  <div class="text-center">
+     <!--  <a href="#top">top</a>-->
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-6 img-responsive">
+        <i class="fa fa-html5 fa-5x" aria-hidden="true" data-toggle="modal" data-target="#meme"></i>
+        <h4>HTML 5 Canvas Meme Maker</h4>
+        
+      </div>
+      <div class="col-md-6 img-responsive">
+          <i class="fa fa-html5 fa-5x" aria-hidden="true" data-toggle="modal" data-target="#youtube"></i>
+        <h4>Reponsive Mobile First Tribute Site </h4>
+             </div>
+        
+        
+    
+      <!--<div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3>Appify</h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+-->
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="meme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Meme Maker</h4>
+      </div>
+      <div class="modal-body">
+       <!-- <img class="img-responsive" src="http://placehold.it/300x300" >-->
+       <a href ="http://codepen.io/virtualmason/pen/eZxgrx" target="_blank"> This is a meme maker that lets you upload any image then write a meme over it using  HTML 5 canvas. Try it out click here.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="youtube" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Reponsive Youtube Video</h4>
+      </div>
+      <div class="modal-body">
+          <a href ="http://codepen.io/virtualmason/pen/BjPEaO" target="blank"> This is a website I built that has a reponsive Youtube Video that adjusts nicely on mobile phones. View it in full page mode and resize screen. It resizes like it's a responsive image.</a>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+end-->
+<!--end group 7 modals-->
+<!--leave above this line, new under-->
+<!--group  8 modal- algorithime -->
+<div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+    
+     </div>
+</row>
+    <!--<div class="row text-center">
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+-->
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 6 modals-->
+<!--leave above this line, new under-->
+<!--group  7 modal- algorithime -->
+<div class="container">
+      <h1 class="text-center" id="Algorithims"><a name="Algorithims"></a>Algorithms</h1>
+<row>
+  <div class="text-center">
+       
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-12 img-responsive">
+        <i class="fa  fa-code fa-5x" data-toggle="modal" data-target="#algorithims"></i> 
+        <!--<h1>Algorithims I have worked on<br></h1>-->
+        
+      </div>
+      <!--<div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>-->
+      </div>
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="algorithims" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+       
+          <a href ="https://www.freecodecamp.com/virtualmason" target="_blank">
+        Take a look at algorithms I have worked on and currently working on.Click here</a>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--end group 7 modals-->
+<!--leave above this line, new under-->
+<!--group  8 modal- algorithime -->
+<div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+       <a href="#top">top</a>
+     </div>
+</row>
+    <!--<div class="row text-center">
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+-->
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end group 10 modals-->
+<!--leave above this line, new under-->
+<!--group  11 modal- projets -->
+<div class="container">
+      <h1 class="text-center" id="Tools"><a name="Tools"></a>Tools</h1>
+<row>
+  <div class="text-center">
+       
+     </div>
+</row>
+    <div class="row text-center">
+      <div class="col-md-6 img-responsive">
+          <i class="fa fa-github fa-5x"   data-toggle="modal" data-target="#git"></i>         
+          <h4>My GitHub</h4>
+       
+      </div>
+      <div class="col-md-6 img-responsive">
+          
+        <img src="pics/jasmine.svg" width="200px" height="100px" data-toggle="modal" data-target="#jasmine">
+        <h4>Jasmine Test Suite</h4>
+        
+        </div>
+       
+        
+      
+        
+        
+    
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="git" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">This is my Git Hub Profile</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/256px-Octicons-mark-github.svg.png"  width="256" alt="Octicons-mark-github">
+        <a href ="https://github.com/virtualmason" target="_blank">Click here to visit my Git hub profile.</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="jasmine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <a href ="https://github.com/virtualmason/JasmineTriangleTest" target="_blank">
+        This is a project implementing TDD using the Jasmine test suite to test a 
+        JavaScript program I wrote.
+          </a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--end group 11 modals-->
+<!--leave above this line, new under-->
+<!--group  12 modal- projects -->
+<div class="container">
+      <h1 class="text-center" id=""><a name=""></a></h1>
+<row>
+  <div class="text-center">
+      <!-- <a href="#top">top</a>-->
+     </div>
+</row>
+   <!-- <div class="row text-center">
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project1">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project2">
+        <h3></h3>
+        <p><a href="http://github.com"</a></p>     </div>
+        
+        
+    
+      <div class="col-md-4 img-responsive">
+        <img src="http://placehold.it/300x300" data-toggle="modal" data-target="#project3">
+        <h3></h3>
+        <p><a href="http://github.com"></a></p>
+      </div>
+      </div>
+-->
+      
+      
+      
+      
+      
+      
+      
+    
+     
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        dddddd.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a to do list that I made.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/300x300" >
+        This was a project using Knockout framwork that I built.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <di class="footer">Built With Bootstrap, CSS3, HTML5 And Love Of Tech</di>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </div>
+</div>
+</div> <!--container-fluid -->
+  </body>
+</html>

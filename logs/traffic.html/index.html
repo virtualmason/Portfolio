@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>traffic.html</title>
+<style type="text/css">
+<!--
+  em,h1,h2,h3,h4,h5,h6,form,input,br,hr,p,td,th,li,ul {
+  font-family:Verdana,Arial,Helvetica,sans-serif; }
+
+  td {color:#000000; background-color:#cccccc;}
+
+  th {color:#000000; background-color:#999999;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+<!-- HEADER -->
+<h1>Traffic analysis for HTTP, FTP/SFTP, e-mail and WebDAV</h1>
+<p>
+The following analysis shows your monthly data transfer volumes for
+the current year, divided up into HTTP, FTP, e-mail and WebDAV.
+A summary is shown in the first two columns.
+</p>
+
+<p>
+HTTP, WebDAV and FTP/SFTP traffic is based on the access.log.&lt;week&gt;.&lt;weekday&gt;,
+dav.log.&lt;week&gt;.&lt;weekday&gt;, ftp.xferlog and sftp.log files
+respectively, located in your '/logs' directory (separate FTP transfer logs
+apply to packages with a non-shared IP address only).
+</p>
+
+<p>
+The column labeled "quantity" of the category mail indicates the number
+of e-mails that originated from scripts running on your virtual host.
+This does not include e-mails sent via mailing lists.
+</p>
+
+<p>
+The number of megabytes in each category indicates how many megabytes
+were actually consumed by the specified number of requests.
+</p>
+
+<table border="0" cellspacing="2" cellpadding="3">
+<thead>
+<tr>
+<th></th>
+<th colspan="2">Total</th>
+<th colspan="2">HTTP</th>
+<th colspan="2">FTP/SFTP</th>
+<th colspan="2">Mail</th>
+<th colspan="2">WebDAV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Month</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Requests</th>
+<th>Megabytes</th><th>Quantity</th>
+<th>Megabytes</th><th>Requests</th>
+</tr>
+<tr><th><a href="12.html">2016-12</a></th>
+<td align="right">8,116.0</td><td align="right" style="border-left:0px;">2,675</td>
+<td align="right">8,114.1</td><td align="right" style="border-left:0px;">2,632</td>
+<td align="right">1.9</td><td align="right" style="border-left:0px;">43</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-12 8116.036 2675 8114.142 2632 1.894 43 0.000 0 0.000 0 -->
+<tr><th><a href="11.html">2016-11</a></th>
+<td align="right">111.2</td><td align="right" style="border-left:0px;">726</td>
+<td align="right">110.4</td><td align="right" style="border-left:0px;">709</td>
+<td align="right">0.8</td><td align="right" style="border-left:0px;">17</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-11 111.191 726 110.433 709 0.758 17 0.000 0 0.000 0 -->
+<tr><th><a href="10.html">2016-10</a></th>
+<td align="right">178.6</td><td align="right" style="border-left:0px;">832</td>
+<td align="right">178.6</td><td align="right" style="border-left:0px;">832</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-10 178.639 832 178.639 832 0.000 0 0.000 0 0.000 0 -->
+<tr><th><a href="09.html">2016-09</a></th>
+<td align="right">83.9</td><td align="right" style="border-left:0px;">623</td>
+<td align="right">83.9</td><td align="right" style="border-left:0px;">623</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-09 83.902 623 83.902 623 0.000 0 0.000 0 0.000 0 -->
+<tr><th><a href="08.html">2016-08</a></th>
+<td align="right">247.7</td><td align="right" style="border-left:0px;">968</td>
+<td align="right">247.5</td><td align="right" style="border-left:0px;">964</td>
+<td align="right">0.2</td><td align="right" style="border-left:0px;">4</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-08 247.687 968 247.521 964 0.166 4 0.000 0 0.000 0 -->
+<tr><th><a href="07.html">2016-07</a></th>
+<td align="right">253.5</td><td align="right" style="border-left:0px;">1,201</td>
+<td align="right">252.9</td><td align="right" style="border-left:0px;">1,188</td>
+<td align="right">0.5</td><td align="right" style="border-left:0px;">13</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-07 253.483 1201 252.946 1188 0.537 13 0.000 0 0.000 0 -->
+<tr><th><a href="06.html">2016-06</a></th>
+<td align="right">138.4</td><td align="right" style="border-left:0px;">1,250</td>
+<td align="right">137.7</td><td align="right" style="border-left:0px;">1,233</td>
+<td align="right">0.7</td><td align="right" style="border-left:0px;">17</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-06 138.362 1250 137.695 1233 0.667 17 0.000 0 0.000 0 -->
+<tr><th><a href="05.html">2016-05</a></th>
+<td align="right">442.8</td><td align="right" style="border-left:0px;">2,699</td>
+<td align="right">440.5</td><td align="right" style="border-left:0px;">2,640</td>
+<td align="right">2.3</td><td align="right" style="border-left:0px;">59</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-05 442.833 2699 440.490 2640 2.343 59 0.000 0 0.000 0 -->
+<tr><th><a href="04.html">2016-04</a></th>
+<td align="right">364.3</td><td align="right" style="border-left:0px;">1,937</td>
+<td align="right">344.9</td><td align="right" style="border-left:0px;">1,869</td>
+<td align="right">19.4</td><td align="right" style="border-left:0px;">68</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-04 364.328 1937 344.910 1869 19.418 68 0.000 0 0.000 0 -->
+<tr><th><a href="03.html">2016-03</a></th>
+<td align="right">331.0</td><td align="right" style="border-left:0px;">1,811</td>
+<td align="right">329.6</td><td align="right" style="border-left:0px;">1,773</td>
+<td align="right">1.4</td><td align="right" style="border-left:0px;">38</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-03 331.021 1811 329.609 1773 1.412 38 0.000 0 0.000 0 -->
+<tr><th><a href="02.html">2016-02</a></th>
+<td align="right">2,835.9</td><td align="right" style="border-left:0px;">2,777</td>
+<td align="right">2,790.9</td><td align="right" style="border-left:0px;">2,683</td>
+<td align="right">45.0</td><td align="right" style="border-left:0px;">94</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+<td align="right">0.0</td><td align="right" style="border-left:0px;">0</td>
+</tr>
+<!-- 2016-02 2835.930 2777 2790.917 2683 45.013 94 0.000 0 0.000 0 -->
+</tbody>
+</table>
+
+<!-- FOOTER -->
+<pre>
+1 kB = 1000 Bytes
+1 MB = 1000 kB
+1 GB = 1000 MB
+</pre>
+
+
+</body>
+</html>
